@@ -15,6 +15,7 @@
 		F80981842DA5A06E0038EE10 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80981832DA5A06E0038EE10 /* WelcomeView.swift */; };
 		F83506BD2DA729AC00E41260 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83506BC2DA729AC00E41260 /* LoadingView.swift */; };
 		F83506BF2DA72F2F00E41260 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83506BE2DA72F2F00E41260 /* WeatherManager.swift */; };
+		F83506C12DA734E200E41260 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F83506C02DA734E200E41260 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F80981832DA5A06E0038EE10 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		F83506BC2DA729AC00E41260 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		F83506BE2DA72F2F00E41260 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		F83506C02DA734E200E41260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 		F80981652DA597EB0038EE10 = {
 			isa = PBXGroup;
 			children = (
+				F83506C02DA734E200E41260 /* Info.plist */,
 				F80981702DA597EB0038EE10 /* WeatherApp */,
 				F809816F2DA597EB0038EE10 /* Products */,
 			);
@@ -155,6 +158,7 @@
 			files = (
 				F80981792DA597ED0038EE10 /* Preview Assets.xcassets in Resources */,
 				F80981762DA597ED0038EE10 /* Assets.xcassets in Resources */,
+				F83506C12DA734E200E41260 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
