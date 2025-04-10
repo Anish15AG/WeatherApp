@@ -16,7 +16,7 @@ class WeatherManager{
 //                }
 
                 //Create the URL with the retrieved API key
-                guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=&units=metric") else {
+                guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon=\(longitude)&appid=6749c4c1edee8da5a1581daa2776f2af&units=metric") else {
                     fatalError("Missing URL")
                 }
         
