@@ -35,11 +35,26 @@ struct WeatherView: View {
                         }
                         .frame(width: 150, alignment: .leading)
                         
+                        Spacer()
+                        
                         Text("\(weather.main.feels_like.roundDouble())" + "°")
                             .font(.system(size: 100))
                             .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             .padding()
                     }
+                    
+                    Spacer()
+                        .frame(height: 80)
+                    
+                    AsyncImage(url: URL(string: "https://downtownhamilton.org/wp-content/uploads/2021/04/city-clipart.png")){
+                        image in image.resizable().aspectRatio(contentMode: .fit)
+                            .frame(width: 350)
+                        
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    
+                    Spacer()
                     
                 }
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
